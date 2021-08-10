@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Calculadora</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <input type="text" id="resultado" readonly />
+
+      <div></div>
+
+      <section>
+        <input type="button" value="C" onclick="limpar()" />
+        <input type="button" value="DEL" onclick="remover()" />
+        <input type="button" value="%" onclick="botao(value)" class="operadores"/>
+        <input type="button" value="/" onclick="botao(value)" class="operadores"/>
+      </section>
+
+      <section>
+        <input type="button" value="7" onclick="botao(value)" />
+        <input type="button" value="8" onclick="botao(value)" />
+        <input type="button" value="9" onclick="botao(value)" />
+        <input type="button" value="x'" onclick="botao('**')" class="operadores"/>
+      </section>
+
+      <section>
+        <input type="button" value="4" onclick="botao(value)" />
+        <input type="button" value="5" onclick="botao(value)" />
+        <input type="button" value="6" onclick="botao(value)" />
+        <input type="button" value="x" onclick="botao('*')" class="operadores"/>
+      </section>
+
+      <section>
+        <input type="button" value="1" onclick="botao(value)" />
+        <input type="button" value="2" onclick="botao(value)" />
+        <input type="button" value="3" onclick="botao(value)" />
+        <input type="button" value="-" onclick="botao(value)" class="operadores"/>
+      </section>
+
+      <section>
+        <input type="button" value="0" onclick="botao(value)"/>
+        <input type="button" value="." onclick="botao(value)"/>
+        <input type="button" value="=" onclick="calcula()" id="igual"/>
+        <input type="button" value="+" onclick="botao(value)" class="operadores"/>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
