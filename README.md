@@ -1,18 +1,23 @@
 # Calculadora
 
+![](./.github/preview.png)
+
 ## Conteúdo
 - [Sobre](#sobre)
-- [Links](#link)
+- [Link](#link)
 - [Tecnologias](#tecnologias)
+- [Autor](#autor)
 
 ## Sobre
-Calculadora com funções simples, para fazer um cálculo basta clicar no botão do número e na operação e clicar no símbolo de igual.
+Calculadora com funções simples. Para fazer um cálculo basta clicar no botão do número e na operação e clicar no símbolo de igual.
 
-### Link
-- Site - https://codepen.io/Sanches-Spoladore/full/xxdmmoN
+## Link
+- Site - https://basic-calculadora.netlify.app
 
-### Tecnologias
-- Tags semânticas do HTML5
-- Propriedades comuns do CSS
-- Flexbox
-- Javascript puro
+## Tecnologias
+- HTML
+- CSS
+- Javascript
+
+## Autor
+- Site - https://sanches-spoladore.netlify.app
